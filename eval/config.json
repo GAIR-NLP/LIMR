@@ -1,0 +1,14 @@
+{
+    "aime24": {
+        "n": 4,
+        "temperature": 0.4
+    },
+    "amc23": {
+        "n": 4,
+        "temperature": 0.4
+    },
+    "math500": {
+        "n": 1,
+        "temperature": 0.0
+    }
+}
