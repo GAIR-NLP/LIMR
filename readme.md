@@ -54,7 +54,7 @@ Performance across challenging mathematical benchmarks:
 | Qwen-Math-7B-LINEAR | 1,138 | 28.3 | 74.6 | 61.9 | 54.9 |
 | LIMR | 1,389 | **32.5** | **78.0** | **63.8** | **58.1** |
 
-Comparsion with other popular RL recipes. We apply RL directly from the base model, without using distilled long chain-of-thought data from larger or stronger models, and only use 1k data.
+Comparsion with other popular RL recipes. We apply RL directly from the base model, without using distilled long chain-of-thought data from larger or stronger models, and only use 1k questions.
 | Methods   | Init Model | Long CoT Dis. | #Questions |
 |-----------|------------|---------------|------------|
 | STILL-3   | Instruct   | Yes           | 29,925        |
