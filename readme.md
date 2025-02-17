@@ -119,7 +119,7 @@ If you find this work useful, please cite our paper:
   year = {2025},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/GAIR-NLP/limr}},
+  howpublished = {\url{https://github.com/GAIR-NLP/LIMR}},
 }
 ```
 
