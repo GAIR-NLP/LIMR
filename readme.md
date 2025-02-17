@@ -32,7 +32,7 @@ This repository presents **LIMR**, an approach that challenges the assumptions a
 <img src="assets/main.png" width="700" alt="simplelr-reaoning-intro-figure_00">
 </div>
 
-> (a) The accuracy on AIME24 across using different training datasets in RL. (b) A comparison of different data-efficient models.
+> (a) The accuracy on AIME24 across using different training datasets in RL **without any data distillation and SFT training as cold start**. (b) A comparison of different data-efficient models.
 
 
 
