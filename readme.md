@@ -5,18 +5,11 @@
 </div>
 
 
-<div >
-<center>
-<a href="https://huggingface.co/GAIR/LIMR/tree/main" target="_blank">
-    <img alt="Models" src="https://img.shields.io/badge/🤗-HuggingFace Repo-blue" />
-</a>
-<a href="https://gair-nlp.github.io/LIMR/" target="_blank">
-<img alt="Project Page" src="https://img.shields.io/badge/🧪-Project Page-blue" />
-</a>
-<a href="https://github.com/GAIR-NLP/LIMR/blob/master/Less_is_More_for_RL_Scaling.pdf" target="_blank">
-    <img alt="Paper" src="https://img.shields.io/badge/📑-Paper-blue" />
-</a>
-</div>
+<p align="center">
+  📄 <a href="https://github.com/GAIR-NLP/LIMR/blob/master/Less_is_More_for_RL_Scaling.pdf" target="_blank">Paper</a> &nbsp; | &nbsp;
+  🌐 <a href="https://huggingface.co/datasets/GAIR/LIMR" target="_blank">Dataset</a> &nbsp; | &nbsp;
+  📘 <a href="https://huggingface.co/GAIR/LIMR" target="_blank">Model</a>
+</p>
 
 ## Releases
 
