@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  📄 <a href="https://github.com/GAIR-NLP/LIMR/blob/master/Less_is_More_for_RL_Scaling.pdf" target="_blank">Paper</a> &nbsp; | &nbsp;
+  📄 <a href="https://github.com/GAIR-NLP/LIMR/blob/master/limr.pdf" target="_blank">Paper</a> &nbsp; | &nbsp;
   🌐 <a href="https://huggingface.co/datasets/GAIR/LIMR" target="_blank">Dataset</a> &nbsp; | &nbsp;
   📘 <a href="https://huggingface.co/GAIR/LIMR" target="_blank">Model</a>
 </p>
