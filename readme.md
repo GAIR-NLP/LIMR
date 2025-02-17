@@ -100,7 +100,7 @@ bash scripts/train_limr.sh
 ```bash
 # Evaluate on benchmarks
 cd eval
-python eval.sh --run_path run/ckpts/path --step step/of/ckpts
+python eval.sh --run_path run/ckpts/path --step step_of_ckpts
 ```
 
 ## Acknowledgements
