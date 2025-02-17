@@ -22,14 +22,14 @@
 
 [2025/02/17] We're releasing the following components:
 
-- 🛠️ **LIM Tools**: Implementation of our Learning Impact Measurement methodology
+- 🛠️ **LIM Tools**: Implementation of our **Learning Impact Measurement** methodology
 - 🚀 **Training & Evaluation**: Complete implementation of our training pipeline and evaluation scripts
-- 🔥 **[LIMR Dataset](https://huggingface.co/datasets/GAIR/LIMR)**: Our curated dataset of 1,389 mathematical question
+- 🔥 **[LIMR Dataset](https://huggingface.co/datasets/GAIR/LIMR)**: Our curated dataset of 1,389 mathematical questions
 - 🤖 **[LIMR Model](https://huggingface.co/GAIR/LIMR)**: Model training on the LIMR dataset.
 
 ## Overview
 
-This repository presents **LIMR**, an approach that challenges the assumptions about data scaling in reinforcement learning for LLMs. We demonstrate that the quality and relevance of training samples matter far more than their quantity. Our **Learning Impact Measurement (LIM)** methodology enables automated evaluation of training sample effectiveness, eliminating the need for manual curation while achieving **comparable or superior** results with **6x less** data. Notably, all our investigations are conducted directly from base models without distillation, providing clear insights into the core dynamics of RL training.
+This repository presents **LIMR**, an approach that challenges the assumption about data scaling in reinforcement learning for LLMs. We demonstrate that the quality and relevance of training samples matter far more than their quantity. Our **Learning Impact Measurement (LIM)** methodology enables automated evaluation of training sample effectiveness, eliminating the need for manual curation while achieving **comparable or superior** results with **6x less** data. Notably, all our investigations are conducted directly from base models without distillation, providing clear insights into the core dynamics of RL training.
 
 
 
@@ -45,7 +45,7 @@ Our key findings revolutionize the understanding of RL training dynamics:
 
 - A strategically selected subset of training samples (1,389) can achieve comparable or even superior performance compared to training with the full dataset (8,523), fundamentally challenging the assumption that larger datasets necessarily lead to better performance.
 - We introduce Learning Impact Measurement (LIM), an automated quantitative method for probing the potential value of RL training samples, enabling systematic analysis of how different samples contribute to model improvement.
-- While distilled long-form reasoning data has shown efficiency in larger models, at the scale of ~1K samples with small models (7B), our data-efficient RL approach significantly outperforms SFT with distilled data
+- While distilled long-form reasoning data has shown efficiency in larger models, at the scale of ~1K samples with small models (7B), our data-efficient RL approach significantly outperforms SFT with distilled data.
 - The path to better reasoning capabilities may not lie in simply scaling up RL training data, but rather in being more selective about which samples to use.
 
 
