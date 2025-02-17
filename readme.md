@@ -11,6 +11,14 @@
   📘 <a href="https://huggingface.co/GAIR/LIMR" target="_blank">Model</a>
 </p>
 
+
+<div align="center">
+<img src="assets/main.png" width="700" alt="simplelr-reaoning-intro-figure_00">
+</div>
+
+> (a) The accuracy on AIME24 across using different training datasets in RL **without any data distillation and SFT training as cold start**. Our specifically curated LIMR dataset, a strategically selected subset from the full dataset, MATH (level 3-5), achieved comparable accuracy levels while utilizing less than one-sixth of the data volume. Notably, LIM significantly outperformed a randomly selected dataset of equivalent size, demonstrating the effectiveness of our selective dataset construction methodology. (b) A comparison of different data-efficient models.
+
+
 ## Releases
 
 [2025/02/17] We're releasing the following components:
@@ -23,15 +31,6 @@
 ## Overview
 
 This repository presents **LIMR**, an approach that challenges the assumption about data scaling in reinforcement learning for LLMs. We demonstrate that the quality and relevance of training samples matter far more than their quantity. Our **Learning Impact Measurement (LIM)** methodology enables automated evaluation of training sample effectiveness, eliminating the need for manual curation while achieving **comparable or superior** results with **6x less** data. Notably, all our investigations are conducted directly from base models without distillation, providing clear insights into the core dynamics of RL training.
-
-
-
-<div align="center">
-<img src="assets/main.png" width="700" alt="simplelr-reaoning-intro-figure_00">
-</div>
-
-> (a) The accuracy on AIME24 across using different training datasets in RL **without any data distillation and SFT training as cold start**. (b) A comparison of different data-efficient models.
-
 
 
 Our key findings revolutionize the understanding of RL training dynamics:
