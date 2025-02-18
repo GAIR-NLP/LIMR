@@ -6,14 +6,14 @@
 
 
 <p align="center">
-  📄 <a href="https://github.com/GAIR-NLP/LIMR/blob/master/limr.pdf" target="_blank">Paper</a> &nbsp; | &nbsp;
+  📄 <a href="https://arxiv.org/pdf/2502.11886" target="_blank">Paper</a> &nbsp; | &nbsp;
   🌐 <a href="https://huggingface.co/datasets/GAIR/LIMR" target="_blank">Dataset</a> &nbsp; | &nbsp;
   📘 <a href="https://huggingface.co/GAIR/LIMR" target="_blank">Model</a>
 </p>
 
 
 <div align="center">
-<img src="assets/main.png" width="700" alt="simplelr-reaoning-intro-figure_00">
+<img src="assets/main.png" width="700" alt="limr-main">
 </div>
 
 > (a) The accuracy on AIME24 across using different training datasets in RL **without any data distillation and SFT training as cold start**. Our specifically curated LIMR dataset, a strategically selected subset from the full dataset, MATH (level 3-5), achieved comparable accuracy levels while utilizing less than one-sixth of the data volume. Notably, LIM significantly outperformed a randomly selected dataset of equivalent size, demonstrating the effectiveness of our selective dataset construction methodology. (b) A comparison of different data-efficient models.
