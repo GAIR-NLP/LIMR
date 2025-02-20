@@ -110,13 +110,14 @@ If you find this work useful, please cite our paper:
 
 ```bibtex
 
-@misc{limr2025,
-  author = {Li, Xuefeng and Zou, Haoyang and Liu, Pengfei},
-  title = {LIMR: Less is More for RL Scaling},
-  year = {2025},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/GAIR-NLP/LIMR}},
+@misc{li2025limrrlscaling,
+      title={LIMR: Less is More for RL Scaling}, 
+      author={Xuefeng Li and Haoyang Zou and Pengfei Liu},
+      year={2025},
+      eprint={2502.11886},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2502.11886}, 
 }
 ```
 
