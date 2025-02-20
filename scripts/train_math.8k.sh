@@ -50,7 +50,7 @@ RAY_ADDRESS="http://127.0.0.1:$RAY_DASHBOARD_PORT" ray job submit --address="htt
     --rollout_batch_size 1024 \
     --n_samples_per_prompt 8 \
     --max_epochs 1 \
-    --num_episodes 20 \
+    --num_episodes 10000 \
     --prompt_max_len 1024 \
     --generate_max_len 3072 \
     --advantage_estimator gae \
